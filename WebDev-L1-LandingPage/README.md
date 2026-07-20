@@ -106,14 +106,14 @@ WebDev-L1-LandingPage/
 ## 👤 Author
 
 **Your Name**
-- 🔗 LinkedIn: [Your Profile](https://linkedin.com/in/your-profile)
-- 💻 GitHub: [@your-username](https://github.com/your-username)
+- 🔗 LinkedIn: [Your Profile](https://www.linkedin.com/in/gazi-sayem-uddin-samir)
+- 💻 GitHub: [@your-username](https://github.com/SayemSamir)
 
 ---
 
 ## 📹 Demo Video
 
-> [▶ Watch the demo on LinkedIn](https://linkedin.com/posts/your-post-link)
+> [▶ Watch the demo on LinkedIn](https://www.linkedin.com/posts/gazi-sayem-uddin-samir_oasisinfobyte-oibsip-webdevelopment-ugcPost-7484874162763681792-mSzA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF69aJgBycCl3UD28ffhfZHCVmY1CjObAMA)
 
 ---
 
