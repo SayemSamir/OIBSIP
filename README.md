@@ -65,7 +65,7 @@ OIBSIP/
 
 | # | Task | Status | Demo Video | Folder |
 |---|------|--------|------------|--------|
-| 1 | Landing Page | ✅ Completed | [▶ Watch](https://linkedin.com/posts/your-post) | [📂 View Code](./Python-Task1-ProjectName) |
+| 1 | Landing Page | ✅ Completed | [▶ Watch](https://www.linkedin.com/posts/gazi-sayem-uddin-samir_oasisinfobyte-oibsip-webdevelopment-ugcPost-7484874162763681792-mSzA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF69aJgBycCl3UD28ffhfZHCVmY1CjObAMA) | [📂 View Code](https://github.com/SayemSamir/OIBSIP/tree/main/WebDev-L1-LandingPage) |
 | 2 | Personal Portfolio | 🔄 In Progress | — | [📂 View Code](./Python-Task2-ProjectName) |
 | 3 | Temperature Converter | ⏳ Pending | — | — |
 
