@@ -18,11 +18,11 @@
 
 | Field | Details |
 |---|---|
-| **Name** | Your Full Name |
-| **Track** | Your Track (e.g., Python Programming / Data Science) |
-| **Internship Period** | Month Year – Month Year |
-| **LinkedIn** | [Your LinkedIn Profile](https://linkedin.com/in/your-profile) |
-| **Email** | your.email@example.com |
+| **Name** | Gazi Sayem Uddin Samir |
+| **Track** | Web Development and Designing |
+| **Internship Period** | July 2026 - august 2026 |
+| **LinkedIn** | https://www.linkedin.com/in/gazi-sayem-uddin-samir |
+| **Email** | gazisayemuddinsamir@gmail.com |
 
 ---
 
@@ -31,21 +31,26 @@
 ```
 OIBSIP/
 │
-├── README.md                          ← You are here
+├── README.md
 │
-├── [TrackName]-Task1-[ProjectName]/   ← Task 1 folder
+├── WebDev-L1-LandingPage/
 │   ├── README.md
-│   ├── source files...
+│   ├── index.html
+│   ├── style.css
+│   ├── screenshots/
+│
+├── WebDev-L1-PersonalPortfolio/
+│   ├── README.md
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js (optional)
 │   └── screenshots/
 │
-├── [TrackName]-Task2-[ProjectName]/   ← Task 2 folder
-│   ├── README.md
-│   ├── source files...
-│   └── screenshots/
-│
-└── [TrackName]-Task3-[ProjectName]/   ← Task 3 folder
+└── WebDev-L1-TemperatureConverter/
     ├── README.md
-    ├── source files...
+    ├── index.html
+    ├── style.css
+    ├── script.js
     └── screenshots/
 ```
 
@@ -60,9 +65,9 @@ OIBSIP/
 
 | # | Task | Status | Demo Video | Folder |
 |---|------|--------|------------|--------|
-| 1 | Task Name Here | ✅ Completed | [▶ Watch](https://linkedin.com/posts/your-post) | [📂 View Code](./Python-Task1-ProjectName) |
-| 2 | Task Name Here | 🔄 In Progress | — | [📂 View Code](./Python-Task2-ProjectName) |
-| 3 | Task Name Here | ⏳ Pending | — | — |
+| 1 | Landing Page | ✅ Completed | [▶ Watch](https://linkedin.com/posts/your-post) | [📂 View Code](./Python-Task1-ProjectName) |
+| 2 | Personal Portfolio | 🔄 In Progress | — | [📂 View Code](./Python-Task2-ProjectName) |
+| 3 | Temperature Converter | ⏳ Pending | — | — |
 
 > Replace the track name, task names, and links above with your actual work.
 
@@ -104,9 +109,9 @@ OIBSIP/
 
 | Task | LinkedIn Post |
 |------|---------------|
-| Task 1 — Project Name | [🔗 View Post](https://linkedin.com/posts/your-post-1) |
-| Task 2 — Project Name | [🔗 View Post](https://linkedin.com/posts/your-post-2) |
-| Task 3 — Project Name | [🔗 View Post](https://linkedin.com/posts/your-post-3) |
+| Task 1 — Landing Page | [🔗 View Post](https://linkedin.com/posts/your-post-1) |
+| Task 2 — Personal Portfolio| [🔗 View Post](https://linkedin.com/posts/your-post-2) |
+| Task 3 — Temperature Converter | [🔗 View Post](https://linkedin.com/posts/your-post-3) |
 
 ---
 
@@ -114,8 +119,8 @@ OIBSIP/
 
 <div align="left">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gazi-sayem-uddin-samir/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SayemSamir)
 
 </div>
 
