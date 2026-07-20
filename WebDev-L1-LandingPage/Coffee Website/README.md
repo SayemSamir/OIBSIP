@@ -9,6 +9,13 @@ A beautifully crafted coffee-themed landing page featuring smooth CSS animations
 > Upload to [GitHub Pages](https://pages.github.com/) or [Netlify](https://netlify.com/) to see it live!
 
 ---
+---
+
+## 📸 Screenshot
+
+![Landing Page Preview](preview1.png.jpeg)
+
+---
 
 ## ✨ Features
 
