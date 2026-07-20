@@ -17,7 +17,7 @@
 
 ## 📸 Screenshot
 
-![Landing Page Preview](screenshots/preview.png)
+![Landing Page Preview](screenshots/preview.png.jpeg)
 
 ---
 
