@@ -106,8 +106,8 @@ WebDev-L1-LandingPage/
 ## 👤 Author
 
 **Your Name**
-- 🔗 LinkedIn: [Your Profile](https://www.linkedin.com/in/gazi-sayem-uddin-samir)
-- 💻 GitHub: [@your-username](https://github.com/SayemSamir)
+- 🔗 LinkedIn: [Gazi Sayem Uddin Samir](https://www.linkedin.com/in/gazi-sayem-uddin-samir)
+- 💻 GitHub: [SayemSamir](https://github.com/SayemSamir)
 
 ---
 
