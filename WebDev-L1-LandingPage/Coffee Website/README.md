@@ -1,112 +1,113 @@
-# ☕ Coffee Time - Responsive Landing Page
+# ☕ Coffee Time — Landing Page
 
-A modern and elegant Coffee Landing Page built using **HTML5** and **CSS3**. The website features a premium split-screen layout, smooth animations, stylish navigation, and a clean user interface designed for coffee lovers.
+A beautifully crafted coffee-themed landing page featuring smooth CSS animations, a split-hero layout, and an interactive navigation slider. Built with pure HTML & CSS.
 
 ---
 
-## 📸 Preview
+## 🖥️ Live Preview
 
-![Coffee Time Preview](preview.png)
-
-> Replace `preview.png` with a screenshot of your website.
+> Upload to [GitHub Pages](https://pages.github.com/) or [Netlify](https://netlify.com/) to see it live!
 
 ---
 
 ## ✨ Features
 
-- 🎨 Modern Coffee Theme
-- 🧭 Fixed Navigation Bar
-- ☕ Split Hero Section
-- ✨ Smooth CSS Animations
-- 🖼️ Hover Effects
-- 🎯 Animated Navigation Slider
-- 🌟 Glowing Hero Title
-- 🟤 Premium Color Palette
-- 📱 Responsive Design (Can be extended with media queries)
+- **Animated Navbar** — Slides in from the top on load with a smooth underline slider that follows your hover
+- **Split Hero Section** — Dark left panel with glowing title text + warm brown right panel with the coffee image
+- **Floating Circles** — Three circular ingredient thumbnails (coffee powder, beans, leaves) centered between the two panels
+- **CSS Keyframe Animations** — Fade-in, slide-in, logo rotate, and continuous text glow effects
+- **Hover Interactions** — Button lift, image scale, and circle zoom on hover
+- **Google Fonts** — Uses the *Lemon* cursive font for the main heading
+- **Font Awesome Icons** — Ready to use throughout the page
 
 ---
 
-## 🛠️ Built With
-
-- HTML5
-- CSS3
-- Font Awesome
-- Google Fonts (Lemon)
-
----
-
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
-Coffee-Time/
-│── index.html
-│── style.css
-│── logo.png
-│── coffee split.png
-│── coffee powder.jpg
-│── coffee beans.jpg
-│── leaves.jpg
-│── preview.png
-└── README.md
+coffee-website/
+│
+├── index.html          # Main HTML file
+├── style.css           # All styles and animations
+│
+├── logo.png            # Navbar logo
+├── coffee split.png    # Hero right-side coffee image
+├── coffee powder.jpg   # Circle 1 background
+├── coffee beans.jpg    # Circle 2 background
+└── leaves.jpg          # Circle 3 background
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/coffee-time.git
+cd coffee-time
 ```
 
-2. Open the project folder
+### 2. Add your images
 
-3. Run `index.html` in your browser.
+Make sure these image files are in the root folder:
 
----
+| File | Used For |
+|------|----------|
+| `logo.png` | Navbar logo |
+| `coffee split.png` | Hero right panel image |
+| `coffee powder.jpg` | First circle |
+| `coffee beans.jpg` | Second circle |
+| `leaves.jpg` | Third circle |
 
-## 🎨 Animations Included
+### 3. Open in browser
 
-- Fade In
-- Navbar Slide Down
-- Logo Rotation
-- Hero Content Slide
-- Coffee Image Slide
-- Coffee Cup Hover Zoom
-- Circle Hover Animation
-- Glowing Heading
-- Button Hover Effect
+Just open `index.html` directly in any browser — no build step needed!
 
----
-
-## 📷 Screenshots
-
-Add screenshots of your project here.
+```bash
+# Or with VS Code Live Server:
+code .
+# Then right-click index.html → "Open with Live Server"
+```
 
 ---
 
-## 🌍 Live Demo
+## 🛠️ Built With
 
-https://your-live-demo-link.com
-
----
-
-## 👨‍💻 Author
-
-**Gazi Sayem Uddin Samir**
-
-- GitHub: https://github.com/your-username
-- LinkedIn: https://linkedin.com/in/your-profile
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Structure & markup |
+| CSS3 | Styling & animations |
+| [Font Awesome 6](https://fontawesome.com/) | Icon library |
+| [Google Fonts — Lemon](https://fonts.google.com/specimen/Lemon) | Heading typography |
 
 ---
 
-## ⭐ Support
+## 🎨 Color Palette
 
-If you like this project, don't forget to **Star ⭐ this repository.**
+| Color | Hex | Used For |
+|-------|-----|----------|
+| Dark Brown | `#2c1e1e` | Left hero panel, button |
+| Warm Brown | `#7c573c` | Right hero panel |
+| Muted Brown | `#5c4740` | Button gradient |
+| Gold Accent | `#f6c177` | Nav hover color |
+| Tan | `#d4a373` | Text glow effect |
+
+---
+
+## 📦 Deployment (GitHub Pages)
+
+1. Push all files to a GitHub repository
+2. Go to **Settings → Pages**
+3. Under *Source*, select **main branch / root**
+4. Your site will be live at: `https://your-username.github.io/coffee-time/`
 
 ---
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+This project is open source and free to use for personal and educational purposes.
+
+---
+
+> Made with ❤️ and a lot of ☕
