@@ -109,7 +109,7 @@ OIBSIP/
 
 | Task | LinkedIn Post |
 |------|---------------|
-| Task 1 — Landing Page | [🔗 View Post](https://linkedin.com/posts/your-post-1) |
+| Task 1 — Landing Page | [🔗 View Post](https://www.linkedin.com/posts/gazi-sayem-uddin-samir_oasisinfobyte-oibsip-webdevelopment-ugcPost-7484874162763681792-mSzA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF69aJgBycCl3UD28ffhfZHCVmY1CjObAMA) |
 | Task 2 — Personal Portfolio| [🔗 View Post](https://linkedin.com/posts/your-post-2) |
 | Task 3 — Temperature Converter | [🔗 View Post](https://linkedin.com/posts/your-post-3) |
 
