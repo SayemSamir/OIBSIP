@@ -62,10 +62,10 @@ OIBSIP/
 
 ### 🐍 Track: Python Programming *(replace with your actual track)*
 
-| # | Task | Status | Demo Video | Folder | Live Website |
+| # | Task | Status | Demo Video | Folder |
 |---|------|--------|------------|--------|
 | 1 | Landing Page | ✅ Completed | [▶ Watch](https://www.linkedin.com/posts/gazi-sayem-uddin-samir_oasisinfobyte-oibsip-webdevelopment-ugcPost-7484874162763681792-mSzA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF69aJgBycCl3UD28ffhfZHCVmY1CjObAMA) | [📂 View Code](https://github.com/SayemSamir/OIBSIP/tree/main/WebDev-L1-LandingPage) |
-| 2 | Personal Portfolio | ✅ Completed  |[▶ Watch]() | [📂 View Code]([./Python-Task2-ProjectName](https://github.com/SayemSamir/OIBSIP/tree/main/WebDev-L1-PersonalPortfolio)) |  [🚀 View Live Website](https://portfolio-mdsayem.netlify.app/)
+| 2 | Personal Portfolio | ✅ Completed  |[▶ Watch]() | [📂 View Code]([./Python-Task2-ProjectName](https://github.com/SayemSamir/OIBSIP/tree/main/WebDev-L1-PersonalPortfolio)) |
 | 3 | Temperature Converter | ⏳ Pending | — | — |
 
 > Replace the track name, task names, and links above with your actual work.
