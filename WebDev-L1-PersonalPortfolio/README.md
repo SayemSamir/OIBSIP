@@ -3,7 +3,6 @@
 A modern, responsive, and professional personal portfolio website built using **HTML5**, **CSS3**, and **Vanilla JavaScript**. This project was developed as **Task 2 (Personal Portfolio)** for the **Oasis Infobyte Web Development & Designing Internship (Level 1)**.
 
 ---
-## 🚀 Live Demo
 
 ## 🌐 Live Demo
 
