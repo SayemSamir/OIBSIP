@@ -19,7 +19,8 @@
 |---|---|
 | **Name** | Gazi Sayem Uddin Samir |
 | **Track** | Web Development and Designing |
-| **Internship Period** | July 2026 - august 2026 |
+| **Internship Period** | July 2026 - August 2026 |
+| **Portfolio** | https://portfolio-mdsayem.netlify.app/ |
 | **LinkedIn** | https://www.linkedin.com/in/gazi-sayem-uddin-samir |
 | **Email** | gazisayemuddinsamir@gmail.com |
 
