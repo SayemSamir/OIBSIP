@@ -9,9 +9,9 @@
 
 ---
 
-## 🌐 Live Preview
+## 🌐 Live Demo
 
-> _Add your GitHub Pages / Netlify link here after deployment_
+[🚀 View Live Website](https://burger-website-landing-page.netlify.app/)
 
 ---
 
