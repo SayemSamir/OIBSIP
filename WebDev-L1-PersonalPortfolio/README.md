@@ -3,6 +3,12 @@
 A modern, responsive, and professional personal portfolio website built using **HTML5**, **CSS3**, and **Vanilla JavaScript**. This project was developed as **Task 2 (Personal Portfolio)** for the **Oasis Infobyte Web Development & Designing Internship (Level 1)**.
 
 ---
+## 🚀 Live Demo
+
+## 🌐 Live Demo
+
+[🚀 View Live Website](https://portfolio-mdsayem.netlify.app/)
+
 
 ## 📌 Project Information
 
@@ -17,6 +23,24 @@ A modern, responsive, and professional personal portfolio website built using **
 ## 🎯 Objective
 
 The objective of this project is to create a modern and responsive personal portfolio website that showcases my profile, technical skills, projects, and contact information. It serves as my digital résumé and demonstrates my front-end web development skills.
+
+---
+---
+
+## 📸 Screenshots
+
+### Home
+
+![Landing Page Preview](screenshot/About.png)
+
+
+### Resume
+
+![Project Page Preview](screenshot/resume.png.jpeg)
+
+### Projects
+
+![Landing Page Preview](screenshot/project.png.jpeg)
 
 ---
 
@@ -62,37 +86,6 @@ WebDev-L1-PersonalPortfolio/
 │   └── profile.png.jpeg
 └── README.md
 ```
-
----
-
-## 📸 Screenshots
-
-### Home
-
-![Landing Page Preview](screenshot/About.png)
-
-
-### Resume
-
-![Project Page Preview](screenshot/resume.png.jpeg)
-
-### Projects
-
-![Landing Page Preview](screenshot/project.png.jpeg)
-
----
-
-## 🚀 Live Demo
-
-**GitHub Pages:**
-
-```
-[https://SayemSamir.github.io/OIBSIP/WebDev-L1-PersonalPortfolio/](https://portfolio-mdsayem.netlify.app/)
-```
-
-*(Update after deployment.)*
-
----
 
 ## 💻 GitHub Repository
 
