@@ -1,1 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gazi Sayem Uddin Samir | Software Developer</title>
+  <meta name="description" content="Portfolio of Sayem - Software Developer" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 
+</head>
+<body>
+
+<!-- 3D Canvas Background & Cursor Tracker -->
+<canvas id="bg-canvas"></canvas>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- Mobile top bar -->
+<div class="mob-header">
+  <span class="mob-name">Gazi Sayem Uddin Samir</span>
+  <button class="mob-toggle" id="menuBtn"><i class="fa-solid fa-bars"></i></button>
+</div>
+<div class="s-overlay" id="overlay"></div>
+
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+
+    <!-- Profile -->
+    <div class="profile">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <img src="https://avatars.githubusercontent.com/u/205399761?v=4" alt="Gazi Sayem Uddin Samir" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"/>
+        </div>
+      </div>
+      <div class="p-name">Gazi Sayem Uddin Samir</div>
+      <span class="p-title">Software Developer</span>
+    </div>
+
+    <!-- Contact Info -->
+    <ul class="contact-list">
+      <li class="c-item">
+        <div class="c-icon"><i class="fa-solid fa-building"></i></div>
+        <div>
+          <div class="c-label">Company</div>
+          <div class="c-val">OASIS INFOBYTE</div>
+        </div>
+      </li>
+      <li class="c-item">
+        <div class="c-icon"><i class="fa-regular fa-envelope"></i></div>
+        <div>
+          <div class="c-label">Email</div>
+          <a href="mailto:gazisayemuddinsamir@gmail.com" class="c-val">gazisayemuddinsamir@gmail.com</a>
+        </div>
+      </li>
+      <li class="c-item">
+        <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+        <div>
+          <div class="c-label">Location</div>
+          <div class="c-val">Chattogram, Bangladesh</div>
+        </div>
+      </li>
+      <li class="c-item">
+        <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+        <div>
+          <div class="c-label">Phone</div>
+          <a href="tel:+8801816612332" class="c-val">+8801816612332</a>
+        </div>
+      </li>
+    </ul>
+
+    <div class="divider"></div>
+
+    <a href="SAYEM CV.pdf" class="cv-btn" download>
+      <i class="fa-solid fa-download"></i> Download CV
+    </a>
+
+    <div class="divider"></div>
+
+    <!-- Social Links -->
+    <ul class="social-row">
+      <li><a href="https://github.com/SayemSamir" target="_blank" class="s-link" title="GitHub"><i class="fa-brands fa-github"></i></a></li>
+      <li><a href="https://linkedin.com/in/gazi-sayem-uddin-samir" target="_blank" class="s-link" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+      <li><a href="https://twitter.com/SamirSayem80470" target="_blank" class="s-link" title="Twitter/X"><i class="fa-brands fa-x-twitter"></i></a></li>
+      <li><a href="https://instagram.com/mdsayem197" target="_blank" class="s-link" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="main">
+
+    <!-- Tab Navigation -->
+    <nav class="tabs-nav">
+      <button class="tab-btn active" data-tab="about">
+        <i class="fa-solid fa-user" style="margin-right:.4rem"></i>About
+      </button>
+      <button class="tab-btn" data-tab="resume">
+        <i class="fa-solid fa-file-lines" style="margin-right:.4rem"></i>Resume
+      </button>
+      <button class="tab-btn" data-tab="projects">
+        <i class="fa-solid fa-code" style="margin-right:.4rem"></i>Projects
+      </button>
+    </nav>
+
+    <!-- ABOUT TAB -->
+    <div class="tab-panel active" id="tab-about">
+
+      <h2 class="sec-title">Who <span>I Am</span></h2>
+
+      <div class="bio">
+        <p>
+          I provide professional software consulting and custom development services designed to accelerate your digital transformation. Instead of one-size-fits-all products, I partner with businesses to architect, build, and deploy tailored digital solutions—ranging from complex desktop automations to high-performance web platforms.
+        </p>
+        <p>
+          Leveraging the robust .NET ecosystem, modern web technologies, and advanced database architectures, my focus is on solving unique operational challenges. My mission is to empower brands by optimizing their workflows, enhancing user experiences, and delivering scalable, enterprise-grade software that generates measurable business value.
+        </p>
+      </div>
+
+      <!-- Services Grid with 3D Tilt Effect -->
+      <h3 class="sub-title" style="margin-bottom:1rem">What <span>I Do</span></h3>
+      <div class="services-grid">
+        <div class="svc-card tilt-card">
+          <div class="svc-icon"><i class="fa-solid fa-globe"></i></div>
+          <div class="svc-name">Web Development</div>
+          <p class="svc-desc">Building modern, responsive web applications tailored to your business needs using the latest technologies.</p>
+        </div>
+        <div class="svc-card tilt-card">
+          <div class="svc-icon"><i class="fa-solid fa-desktop"></i></div>
+          <div class="svc-name">Desktop Development</div>
+          <p class="svc-desc">Crafting powerful, efficient desktop applications with clean, intuitive user interfaces.</p>
+        </div>
+        <div class="svc-card tilt-card">
+          <div class="svc-icon"><i class="fa-solid fa-terminal"></i></div>
+          <div class="svc-name">Console & Automation</div>
+          <p class="svc-desc">Developing background services, automation scripts and tools to streamline complex workflows.</p>
+        </div>
+        <div class="svc-card tilt-card">
+          <div class="svc-icon"><i class="fa-solid fa-plug"></i></div>
+          <div class="svc-name">API & Integrations</div>
+          <p class="svc-desc">Engineering secure RESTful APIs and integrating third-party services across diverse platforms.</p>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <h3 class="sub-title">My <span>Skills</span></h3>
+
+      <div class="skill-cat">Backend &amp; Database</div>
+      <div class="skill-tags">
+        <span class="skill-tag"><i class="fa-solid fa-hashtag"></i> C#</span>
+        <span class="skill-tag"><i class="fa-brands fa-microsoft"></i> .NET</span>
+        <span class="skill-tag"><i class="fa-solid fa-cubes"></i> ASP.NET Core</span>
+        <span class="skill-tag"><i class="fa-solid fa-database"></i> SQL</span>
+        <span class="skill-tag"><i class="fa-solid fa-network-wired"></i> API Development</span>
+        <span class="skill-tag"><i class="fa-solid fa-layer-group"></i> Entity Framework</span>
+        <span class="skill-tag"><i class="fa-solid fa-window-maximize"></i> WinForms</span>
+      </div>
+
+      <div class="skill-cat">Frontend</div>
+      <div class="skill-tags">
+        <span class="skill-tag"><i class="fa-brands fa-html5"></i> HTML</span>
+        <span class="skill-tag"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+        <span class="skill-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+        <span class="skill-tag"><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+        <span class="skill-tag"><i class="fa-solid fa-globe"></i> Responsive Design</span>
+      </div>
+
+      <div class="skill-cat">IT &amp; System Administration</div>
+      <div class="skill-tags">
+        <span class="skill-tag"><i class="fa-solid fa-server"></i> Windows Server</span>
+        <span class="skill-tag"><i class="fa-solid fa-users-gear"></i> Active Directory</span>
+        <span class="skill-tag"><i class="fa-brands fa-microsoft"></i> Office 365</span>
+        <span class="skill-tag"><i class="fa-solid fa-desktop"></i> Remote Desktop</span>
+        <span class="skill-tag"><i class="fa-solid fa-headset"></i> IT Support</span>
+      </div>
+
+      <div class="skill-cat">Tools &amp; Others</div>
+      <div class="skill-tags">
+        <span class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git</span>
+        <span class="skill-tag"><i class="fa-brands fa-github"></i> GitHub</span>
+        <span class="skill-tag"><i class="fa-solid fa-laptop-code"></i> Visual Studio</span>
+        <span class="skill-tag"><i class="fa-solid fa-code"></i> VS Code</span>
+        <span class="skill-tag"><i class="fa-solid fa-rocket"></i> Postman</span>
+      </div>
+
+    </div>
+
+    <!-- RESUME TAB -->
+    <div class="tab-panel" id="tab-resume">
+
+      <h2 class="sec-title">My <span>Resume</span></h2>
+
+      <div class="tl-section">
+        <div class="tl-header">
+          <div class="tl-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <span class="tl-label">Experience</span>
+        </div>
+        <div class="timeline">
+
+          <div class="tl-item">
+            <div class="tl-card tilt-card">
+              <div class="tl-top">
+                <div class="tl-title">OASIS INFOBYTE</div>
+                <span class="tl-period">july 2026 — Present</span>
+              </div>
+              <p class="tl-desc">• Selected for the AICTE Oasis Infobyte Internship Program.<br>
+                                 • Developing projects using industry-standard practices and maintaining code on GitHub.
+              </p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-card tilt-card">
+              <div class="tl-top">
+                <div class="tl-title">HORIZON TechX</div>
+                <span class="tl-period">march 2026 — Present</span>
+              </div>
+              <p class="tl-desc">• Selected for the AICTE Horizon TechX Internship Program.<br>
+                                 • Developing projects using industry-standard practices and maintaining code on GitHub.</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-card tilt-card">
+              <div class="tl-top">
+                <div class="tl-title">Volunteer – Child Rights & Election Monitoring (CREMI)</div>
+                <span class="tl-period">january 2026 — Present</span>
+              </div>
+              <p class="tl-desc">Monitor media and digital platforms to document the use of children in electoral politics and support child rights advocacy</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-card tilt-card">
+              <div class="tl-top">
+                <div class="tl-title">University Representative</div>
+                <span class="tl-period">july 2024 — october 2025</span>
+              </div>
+              <p class="tl-desc">Represented BGC Trust University Bangladesh at an international leadership competition, developing leadership and cross-cultural collaboration skills</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="tl-section">
+        <div class="tl-header">
+          <div class="tl-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <span class="tl-label">Education</span>
+        </div>
+        <div class="timeline">
+
+          <div class="tl-item">
+            <div class="tl-card tilt-card">
+              <div class="tl-top">
+                <div class="tl-title">BGC Trust University Bangladesh | Bachelor of Science, Computer Engineering</div>
+                <span class="tl-period">Jul 2024 – Jun 2028</span>
+              </div>
+              <p class="tl-desc">I studied C#, Python, Java, PostgreSQL, PHP, HTML and CSS technologies at a basic level.</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-card tilt-card">
+              <div class="tl-top">
+                <div class="tl-title">Satkania Government College | Higher Secondary Certificate (HSC), Science</div>
+                <span class="tl-period">2019 — 2021</span>
+              </div>
+              <p class="tl-desc">Completed my studies in Chattogram and completed secondary education with scientific background.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Certificates -->
+      <div class="tl-section">
+        <div class="tl-header">
+          <div class="tl-icon"><i class="fa-solid fa-medal"></i></div>
+          <span class="tl-label">Certificates &amp; Achievements</span>
+        </div>
+        <div class="certs-grid">
+          <a href="https://media.licdn.com/dms/image/v2/D562DAQFstg-s-Y7k6w/profile-treasury-image-shrink_800_800/B56Z9P7KZQIQAI-/0/1783752337235?e=1785236400&v=beta&t=lS3yoroc5oG_lYEc1GGH6belz0VhdolbHXtH-jB4lPU" target="_blank" class="cert-item tilt-card"><i class="fa-solid fa-award cert-ic"></i><span class="cert-name">Claude 101</span></a>
+          <a href="https://certificates.simplicdn.net/share/10453616_10761627_1783705766760.png" target="_blank" class="cert-item tilt-card"><i class="fa-solid fa-award cert-ic"></i><span class="cert-name">Programming with Python</span></a>
+          <a href="https://media.licdn.com/dms/image/v2/D562DAQGxPBiJyu98-A/profile-treasury-document-images_1280/B56Zt5xjtjG0AU-/1/1767274594635?e=1785369600&v=beta&t=8B_m4bMqv7yjEWH4RYZSNj--PXtuxZd7RJEL2KbIfYg" target="_blank" class="cert-item tilt-card"><i class="fa-solid fa-award cert-ic"></i><span class="cert-name">Gemini Certified</span></a>
+          <a href="https://media.licdn.com/dms/image/v2/D562DAQGqSJdTWIRZzQ/profile-treasury-document-cover-images_1280/B56Ztl358aJoAw-/0/1766940715173?e=1785236400&v=beta&t=32FhoPPD2h7ngAHU1jrxOOWl_25WxNw6ta8i2UAj7UY" target="_blank" class="cert-item tilt-card"><i class="fa-solid fa-award cert-ic"></i><span class="cert-name">Graphic Design</span></a>
+          <a href="https://www.hackerrank.com/certificates/79ed10bb3287" target="_blank" class="cert-item tilt-card"><i class="fa-solid fa-award cert-ic"></i><span class="cert-name">HTML & CSS Fundamentals</span></a>
+          <a href="https://media.licdn.com/dms/image/v2/D4E2DAQHY5toPNQR3eQ/profile-treasury-document-images_1280/B4EZrUC3rxKkAY-/1/1764494115410?e=1785369600&v=beta&t=JZC6P5dlOBiD0JrdtnIXQEf3ra5x8d55TGqxl_h4Zik" target="_blank" class="cert-item tilt-card"><i class="fa-solid fa-award cert-ic"></i><span class="cert-name">GitHub Professional Certificate</span></a>
+          <a href="https://media.licdn.com/dms/image/v2/D4E2DAQE4U_5kKTwbyQ/profile-treasury-document-images_1280/B4EZnEiZcYKkAU-/1/1759939031264?e=1785369600&v=beta&t=k4Dz-G7bfmnpzl1WOSrQe5I5g0bO5eNLvlebaVf3S5A" target="_blank" class="cert-item tilt-card"><i class="fa-solid fa-award cert-ic"></i><span class="cert-name">HackerRank Problem Solving</span></a>
+          <a href="https://media.licdn.com/dms/image/v2/D4D2DAQGnbU-sxV_qlQ/profile-treasury-image-shrink_800_800/B4DZlSDUydJkAY-/0/1758018228489?e=1785236400&v=beta&t=rJMQh22dtB0WoIvOIxTKN4dkRAiRx2BCVL7EvIQB_oA" target="_blank" class="cert-item tilt-card"><i class="fa-solid fa-award cert-ic"></i><span class="cert-name">Microsoft Office Specialist</span></a>
+          <a href="https://media.licdn.com/dms/image/v2/D4D2DAQFEYD1zfyQhFQ/profile-treasury-image-shrink_800_800/B4DZlSDCOEJEAY-/0/1758018152177?e=1785236400&v=beta&t=esMXMVfM0HdXr_39dOw7De7iOS-8PWpyWQzDlXGJHvE" target="_blank" class="cert-item tilt-card"><i class="fa-solid fa-award cert-ic"></i><span class="cert-name">Git Certificate</span></a>
+          <a href="https://media.licdn.com/dms/image/v2/D4D2DAQH-FUg3qzDf7w/profile-treasury-image-shrink_800_800/B4DZlSC3K0HsAY-/0/1758018107794?e=1785236400&v=beta&t=61h9EaRbRPpYqy7ZBp4WUS_vw2luUJKIRyqjhwJAiCc" target="_blank" class="cert-item tilt-card"><i class="fa-solid fa-award cert-ic"></i><span class="cert-name">C Programming</span></a>
+          <a href="https://media.licdn.com/dms/image/v2/D4E2DAQEewFz-ikBZRg/profile-treasury-image-shrink_800_800/B4EZlOvI0jGcAY-/0/1757962608719?e=1785236400&v=beta&t=jN8oyjcMrETfA5XIZ8p-HVBgVw1dElm8YIZK1xcQ3xo" target="_blank" target="_blank" class="cert-item tilt-card"><i class="fa-solid fa-award cert-ic"></i><span class="cert-name">Mushroom Cultivation</span></a>
+          <a href="https://media.licdn.com/dms/image/v2/D4E2DAQEn_EiDTFfEDw/profile-treasury-image-shrink_800_800/B4EZlOtv4vIQAc-/0/1757962244262?e=1785236400&v=beta&t=2vDy1C4qoELlVM6rc2GKAZtfYszwDNnz8qHiO3Pgrbc" class="cert-item tilt-card"><i class="fa-solid fa-award cert-ic"></i><span class="cert-name">Programming Contest</span></a>
+          <a href="https://media.licdn.com/dms/image/v2/D4E2DAQG3au-Lpn8iLg/profile-treasury-image-shrink_800_800/B4EZlIyPb7IIAY-/0/1757862758694?e=1785236400&v=beta&t=TEV6CZ3dxOO0Xh_PwAH_9fcofHXyJHZQjOhGvxEB9uE" target="_blank" class="cert-item tilt-card"><i class="fa-solid fa-award cert-ic"></i><span class="cert-name">Certified Innovation Leader</span></a>
+          <a href="https://media.licdn.com/dms/image/v2/D4E2DAQFNZbGBqtyayg/profile-treasury-image-shrink_800_800/B4EZlN436fGYAY-/0/1757948383247?e=1785236400&v=beta&t=5Ul8iqyt3e4R0Zuj8PfkFicwYHrHU8cCoLRoTgiagx0" target="_blank" class="cert-item tilt-card"><i class="fa-solid fa-award cert-ic"></i><span class="cert-name">IoT Fundamentals</span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- PROJECTS TAB -->
+    <div class="tab-panel" id="tab-projects">
+
+      <h2 class="sec-title">Featured <span>Projects</span></h2>
+
+      <div class="proj-grid">
+
+        <div class="proj-card tilt-card">
+  <div class="proj-thumb">
+    <!--  Landing Page Preview Image -->
+    <img 
+      src="https://github.com/SayemSamir/OIBSIP/raw/main/WebDev-L1-LandingPage/screenshots/preview.png.jpeg" 
+      alt="Landing Page Preview" 
+    />
+  </div>
+  <div class="proj-body">
+    <div class="proj-cat">WebDev-L1-Landing Page</div>
+    <div class="proj-name">Landing Page</div>
+    <p class="proj-desc">A visually polished static landing page for a fictional burger restaurant brand — "The Ultimate Burger Haven". Built using HTML5, CSS3, and Vanilla JavaScript.</p>
+  </div>
+  <div class="proj-foot">
+    <span class="proj-year">2026</span>
+    <a href="https://github.com/SayemSamir/OIBSIP/tree/main/WebDev-L1-LandingPage" target="_blank" class="proj-link">View <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+</div>
+
+        <div class="proj-card tilt-card">
+  <div class="proj-thumb">
+    <!-- Personal Portfolio Preview Image -->
+    <img 
+      src="https://github.com/SayemSamir/OIBSIP/blob/main/WebDev-L1-PersonalPortfolio/screenshot/About.png?raw=true" 
+      alt="Personal Portfolio Preview" 
+    />
+  </div>
+  <div class="proj-body">
+    <div class="proj-cat">WebDev-L1-Personal Portfolio</div>
+    <div class="proj-name">Personal Portfolio</div>
+    <p class="proj-desc">The objective of this project is to create a modern and responsive personal portfolio website that showcases my profile, technical skills, projects, and contact information.</p>
+  </div>
+  <div class="proj-foot">
+    <span class="proj-year">2026</span>
+    <a href="https://github.com/SayemSamir/OIBSIP/tree/main/WebDev-L1-PersonalPortfolio" target="_blank" class="proj-link">View <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+</div>
+
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<script src="script.js"></script> 
+</body>
+</html>
