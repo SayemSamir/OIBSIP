@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glassmorphism Temperature Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- CUSTOM CURSOR -->
+  <div class="custom-cursor" id="cursor"></div>
 
+  <!-- FLOATING ICONS -->
+  <div class="floating-icon" style="top: 10%; left: 10%;">❄️</div>
+  <div class="floating-icon" style="top: 20%; right: 15%;">🔥</div>
+  <div class="floating-icon" style="bottom: 15%; left: 15%;">🌡️</div>
+  <div class="floating-icon" style="bottom: 25%; right: 10%;">⚡</div>
+
+  <!-- MAIN GLASS CARD -->
+  <div class="container" id="glassCard">
+    <div class="header">
+      <h1>ThermoGlass</h1>
+      <button class="theme-toggle" id="themeToggle" title="Toggle Theme">🌙</button>
+    </div>
+
+    <!-- INPUT SECTION -->
+    <div class="input-group">
+      <label for="tempInput">Enter Temperature</label>
+      <div class="input-wrapper">
+        <input type="number" id="tempInput" placeholder="e.g. 25" step="any">
+      </div>
+    </div>
+
+    <div class="units-row">
+      <div class="select-wrapper">
+        <label for="fromUnit">From</label>
+        <select id="fromUnit">
+          <option value="C">Celsius (°C)</option>
+          <option value="F">Fahrenheit (°F)</option>
+          <option value="K">Kelvin (K)</option>
+        </select>
+      </div>
+
+      <button class="swap-btn" id="swapBtn" title="Swap Units">🔄</button>
+
+      <div class="select-wrapper">
+        <label for="toUnit">To</label>
+        <select id="toUnit">
+          <option value="F">Fahrenheit (°F)</option>
+          <option value="C">Celsius (°C)</option>
+          <option value="K">Kelvin (K)</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- BUTTONS -->
+    <div class="btn-group">
+      <button class="btn btn-primary" id="convertBtn">
+        <span id="btnText">Convert</span>
+        <div class="loader" id="btnLoader"></div>
+      </button>
+      <button class="btn" id="clearBtn">Clear</button>
+    </div>
+
+    <!-- RESULT CARDS -->
+    <div class="results-container">
+      <div class="result-card">
+        <h3>Celsius</h3>
+        <p id="resC">--</p>
+        <button class="copy-btn" onclick="copyToClipboard('resC')">📋</button>
+      </div>
+      <div class="result-card">
+        <h3>Fahrenheit</h3>
+        <p id="resF">--</p>
+        <button class="copy-btn" onclick="copyToClipboard('resF')">📋</button>
+      </div>
+      <div class="result-card">
+        <h3>Kelvin</h3>
+        <p id="resK">--</p>
+        <button class="copy-btn" onclick="copyToClipboard('resK')">📋</button>
+      </div>
+    </div>
+
+    <!-- HISTORY SECTION -->
+    <div class="history-section">
+      <div class="history-header">
+        <h2>Conversion History</h2>
+        <button class="clear-history" id="clearHistoryBtn">Clear History</button>
+      </div>
+      <ul class="history-list" id="historyList"></ul>
+    </div>
+  </div>
+
+  <!-- TOAST CONTAINER -->
+  <div class="toast-container" id="toastContainer"></div>
+<script src="script.js"></script>
+</body>
+</html>
