@@ -87,7 +87,7 @@ WebDev-L1-PersonalPortfolio/
 **GitHub Pages:**
 
 ```
-https://SayemSamir.github.io/OIBSIP/WebDev-L1-PersonalPortfolio/
+[https://SayemSamir.github.io/OIBSIP/WebDev-L1-PersonalPortfolio/](https://portfolio-mdsayem.netlify.app/)
 ```
 
 *(Update after deployment.)*
