@@ -55,14 +55,11 @@ WebDev-L1-PersonalPortfolio/
 ├── index.html
 ├── style.css
 ├── script.js
-├── assets/
-│   ├── images/
-│   └── icons/
 ├── screenshots/
-│   ├── home.png
-│   ├── about.png
-│   ├── projects.png
-│   └── contact.png
+│   ├── About.png
+│   ├── resume.png.jpeg
+│   ├── project.png.jpeg
+│   └── profile.png.jpeg
 └── README.md
 ```
 
@@ -72,19 +69,16 @@ WebDev-L1-PersonalPortfolio/
 
 ### Home
 
-> Add screenshot here
+![Landing Page Preview](screenshot/About.png)
 
-### About
 
-> Add screenshot here
+### Resume
+
+![Project Page Preview](screenshot/resume.png.jpeg)
 
 ### Projects
 
-> Add screenshot here
-
-### Contact
-
-> Add screenshot here
+![Landing Page Preview](screenshot/project.png.jpeg)
 
 ---
 
@@ -93,7 +87,7 @@ WebDev-L1-PersonalPortfolio/
 **GitHub Pages:**
 
 ```
-https://yourusername.github.io/OIBSIP/WebDev-L1-PersonalPortfolio/
+https://SayemSamir.github.io/OIBSIP/WebDev-L1-PersonalPortfolio/
 ```
 
 *(Update after deployment.)*
@@ -103,10 +97,10 @@ https://yourusername.github.io/OIBSIP/WebDev-L1-PersonalPortfolio/
 ## 💻 GitHub Repository
 
 ```
-https://github.com/yourusername/OIBSIP
+https://github.com/SayemSamir/OIBSIP
 ```
 
-*(Replace `yourusername` with your GitHub username.)*
+*(Replace `SayemSamir` with your GitHub username.)*
 
 ---
 
@@ -139,7 +133,7 @@ https://github.com/yourusername/OIBSIP
 
 **Gazi Sayem Uddin Samir**
 
-- GitHub: https://github.com/yourusername
+- GitHub: https://github.com/SayemSamir
 - LinkedIn: https://www.linkedin.com/in/gazi-sayem-uddin-samir/
 
 ---
