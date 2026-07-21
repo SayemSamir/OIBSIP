@@ -97,7 +97,7 @@ Users can instantly convert temperatures between Celsius, Fahrenheit, and Kelvin
 
 🌐 Live Website
 
-https://thermoglass.netlify.app/
+[🚀 View Live Website](https://thermoglass.netlify.app/)
 
 ---
 
@@ -200,7 +200,7 @@ Mobile
 
 Made with ❤️ by **Gazi Sayem Uddin Samir**
 
-![🌐 Portfolio](https://thermoglass.netlify.app/)  ![💼 LinkedIn](https://linkedin.com/in/gazi-sayem-uddin-samir)  ![💼 💻 GitHub](https://github.com/SayemSamir)  
+[🌐 Portfolio](https://thermoglass.netlify.app/)  [💼 LinkedIn](https://linkedin.com/in/gazi-sayem-uddin-samir)  [💼 💻 GitHub](https://github.com/SayemSamir)  
 
 ---
 
