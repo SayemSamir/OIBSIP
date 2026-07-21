@@ -17,7 +17,29 @@ Convert temperatures instantly between
 🌍 Kelvin
 
 ---
+<div align="center">
 
+<a href="https://portfolio-mdsayem.netlify.app/">
+<img src="https://img.shields.io/badge/🌐_Live_Website-00C853?style=for-the-badge">
+</a>
+
+<a href="https://github.com/SayemSamir/OIBSIP">
+<img src="https://img.shields.io/badge/📂_Repository-181717?style=for-the-badge&logo=github">
+</a>
+
+<a href="https://www.linkedin.com/in/gazi-sayem-uddin-samir/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin">
+</a>
+
+<a href="https://github.com/SayemSamir">
+<img src="https://img.shields.io/badge/Profile-100000?style=for-the-badge&logo=github">
+</a>
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=SayemSamir&label=Profile%20Views&color=blueviolet&style=for-the-badge">
+
+</div>
+</div>
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -85,6 +107,15 @@ LinkedIn Post
 https://linkedin.com/......
 
 ---
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=SayemSamir&show_icons=true&theme=tokyonight" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SayemSamir&theme=tokyonight" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SayemSamir&layout=compact&theme=tokyonight"/>
+
+</div>
 
 # 📂 Folder Structure
 
@@ -118,26 +149,31 @@ Font Awesome
 
 ---
 
-# 📏 Formula Used
+## 🌡️ Temperature Conversion Formulas
 
-C → F
-
-°F = (°C × 9/5) + 32
-
-F → C
-
-°C = (°F − 32) × 5/9
-
-C → K
-
-K = °C + 273.15
-
-K → C
-
-°C = K − 273.15
-
+| Conversion | Formula |
+|------------|---------|
+| 🔥 Celsius ➜ Fahrenheit | **°F = (°C × 9 ÷ 5) + 32** |
+| ❄️ Fahrenheit ➜ Celsius | **°C = (°F − 32) × 5 ÷ 9** |
+| 🌍 Celsius ➜ Kelvin | **K = °C + 273.15** |
+| 🌍 Kelvin ➜ Celsius | **°C = K − 273.15** |
+| 🔥 Fahrenheit ➜ Kelvin | **K = (°F − 32) × 5 ÷ 9 + 273.15** |
+| ❄️ Kelvin ➜ Fahrenheit | **°F = (K − 273.15) × 9 ÷ 5 + 32** |
 ---
+## ✨ Features
 
+| 🚀 | Feature |
+|----|---------|
+| ✅ | Instant Temperature Conversion |
+| ✅ | Celsius, Fahrenheit & Kelvin |
+| ✅ | Input Validation |
+| ✅ | Absolute Zero Detection |
+| ✅ | Responsive Layout |
+| ✅ | Modern Glassmorphism UI |
+| ✅ | Smooth Hover Animations |
+| ✅ | Clean User Experience |
+| ✅ | Error Messages |
+| ✅ | Mobile Friendly |
 # ⚠️ Input Validation
 
 ✔ Numbers only
@@ -162,24 +198,23 @@ Mobile
 
 ---
 
-# 👨‍💻 Author
+<div align="center">
 
-Gazi Sayem Uddin Samir
+Made with ❤️ by **Gazi Sayem Uddin Samir**
 
-GitHub
+🌐 Portfolio • 💼 LinkedIn • 💻 GitHub
 
-https://github.com/SayemSamir
-
-LinkedIn
-
+</div>
 https://linkedin.com/in/gazi-sayem-uddin-samir
 
 ---
 
 <div align="center">
 
-Made with ❤️ using HTML CSS JavaScript
+### ⭐ If you like this project
 
-⭐ Star this repository if you like it.
+Give this repository a ⭐
+
+It motivates me to build more awesome projects.
 
 </div>
