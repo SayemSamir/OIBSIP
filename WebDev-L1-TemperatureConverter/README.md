@@ -88,7 +88,8 @@ Users can instantly convert temperatures between Celsius, Fahrenheit, and Kelvin
 
 ## Home
 
-![Preview](screenshots/home.png)
+![Preview](screenshot/3.jpeg)
+![Preview](screenshot/1.jpeg)
 
 ---
 
@@ -96,7 +97,7 @@ Users can instantly convert temperatures between Celsius, Fahrenheit, and Kelvin
 
 🌐 Live Website
 
-https://your-netlify-link.netlify.app
+https://thermoglass.netlify.app/
 
 ---
 
@@ -119,19 +120,16 @@ https://linkedin.com/......
 
 # 📂 Folder Structure
 
-TemperatureConverter/
-
+Temperature-Converter/
 │
-
 ├── index.html
-
 ├── style.css
-
 ├── script.js
-
 ├── README.md
-
-└── screenshots/
+├── screenshot/
+│   ├── 1.jpeg
+│   ├── 2.jpeg
+│   └── 3.jpeg
 
 ---
 
@@ -202,10 +200,7 @@ Mobile
 
 Made with ❤️ by **Gazi Sayem Uddin Samir**
 
-🌐 Portfolio • 💼 LinkedIn • 💻 GitHub
-
-</div>
-https://linkedin.com/in/gazi-sayem-uddin-samir
+![🌐 Portfolio](https://thermoglass.netlify.app/)  ![💼 LinkedIn](https://linkedin.com/in/gazi-sayem-uddin-samir)  ![💼 💻 GitHub](https://github.com/SayemSamir)  
 
 ---
 
@@ -218,3 +213,5 @@ Give this repository a ⭐
 It motivates me to build more awesome projects.
 
 </div>
+
+
