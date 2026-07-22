@@ -1,1 +1,55 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scientific & Digital Glassmorphic Calculator</title>
+   <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body data-theme="dark">
+
+  <div class="app-layout">
+    <!-- CALCULATOR -->
+    <div class="calc-card">
+      <div class="top-bar">
+        <span class="mode-badge" id="modeBadge">Digital Model</span>
+        <div class="controls">
+          <button class="icon-btn" onclick="toggleDegRad()" id="degRadBtn">DEG</button>
+          <button class="icon-btn" onclick="toggleTheme()">🌗</button>
+          <button class="icon-btn" onclick="toggleSound()" id="soundBtn">🔊</button>
+        </div>
+      </div>
+
+      <!-- DIGITAL DISPLAY -->
+      <div class="digital-display">
+        <div class="expr-line" id="exprDisplay"></div>
+        <div class="main-line" id="resDisplay">0</div>
+      </div>
+
+      <!-- MODE TAB SWITCHER -->
+      <div class="mode-tabs">
+        <button class="tab-btn active" onclick="setMode('basic')" id="tabBasic">Standard Digital</button>
+        <button class="tab-btn" onclick="setMode('scientific')" id="tabSci">Scientific</button>
+      </div>
+
+      <!-- KEYPAD -->
+      <div class="keypad" id="keypad">
+        <!-- Keypad content rendered dynamically via JS -->
+      </div>
+    </div>
+
+    <!-- HISTORY SIDE PANEL -->
+    <div class="history-card">
+      <h3 style="font-size: 1rem; color: var(--text-main);">📜 Calculation Log</h3>
+      <div class="history-list" id="historyList"></div>
+      <button class="icon-btn" onclick="clearHistory()" style="width: 100%;">Clear History</button>
+    </div>
+  </div>
+
+  <footer>🔬 Scientific &amp; Digital Glassmorphic Engine</footer>
+
+ <script src="script.js"></script> 
+</body>
+</html>
