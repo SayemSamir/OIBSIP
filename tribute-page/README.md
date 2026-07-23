@@ -23,6 +23,12 @@ The primary objective of this project is to honor and present the life, moral ch
 
 ---
 
+## 🌐 Live Demo
+
+[🚀 View Live Website](https://venerable-sunburst-4fc4d6.netlify.app/)
+
+![Page Preview](s)
+
 ## 🕋 Comprehensive History & Biography of Hazrat Muhammad (ﷺ)
 
 **Hazrat Muhammad (ﷺ)** (570 CE – 632 CE) is the final Prophet and Messenger of Allah (God) in Islam, revered by over 1.9 billion people worldwide. Born in Mecca, Arabia, his life transformed the course of human civilization, laying the foundation for universal morality, legal justice, and human rights.
