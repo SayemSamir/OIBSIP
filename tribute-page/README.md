@@ -5,6 +5,17 @@
 
 ---
 
+## 📊 Repository Analytics & Badges
+
+![Visitor Count](https://page-views.glitch.me/badge?page_id=your-username.tribute-page-prophet-muhammad)
+![GitHub Stars](https://img.shields.io/github/stars/your-username/tribute-page-prophet-muhammad?style=for-the-badge&color=d4af37)
+![GitHub Forks](https://img.shields.io/github/forks/your-username/tribute-page-prophet-muhammad?style=for-the-badge&color=10b981)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/your-username/tribute-page-prophet-muhammad?style=for-the-badge&color=3b82f6)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/your-username/tribute-page-prophet-muhammad?style=for-the-badge&color=8b5cf6)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+
+---
+
 ## 📌 Project Overview & Purpose
 
 This project is a deeply respectful, feature-rich, and modern web application developed as part of the **Web Development & Designing Internship** at **Oasis Infobyte (OIBSIP)** under **Task 2 (Level 2)**. 
@@ -13,61 +24,82 @@ The primary objective of this project is to honor and present the life, moral ch
 
 ---
 
-## 🕋 About Hazrat Muhammad (ﷺ)
+## 🕋 Comprehensive History & Biography of Hazrat Muhammad (ﷺ)
 
-**Hazrat Muhammad (ﷺ)** (570 CE – 632 CE) is the final Prophet and Messenger of Allah (God) in Islam, revered by over 1.9 billion people worldwide. Born in Mecca, he was known throughout his life for his flawless integrity, compassion, humility, and justice—earning the honorific titles ***Al-Amin*** (The Trustworthy) and ***As-Sadiq*** (The Truthful) long before receiving divine revelation.
+**Hazrat Muhammad (ﷺ)** (570 CE – 632 CE) is the final Prophet and Messenger of Allah (God) in Islam, revered by over 1.9 billion people worldwide. Born in Mecca, Arabia, his life transformed the course of human civilization, laying the foundation for universal morality, legal justice, and human rights.
 
-At the age of 40, in the Cave of Hira, the first verses of the Holy Qur'an were revealed to him through Angel Jibreel (Gabriel). Over 23 years of prophethood, he transformed Arabian society—abolishing tribal warfare, championing women's rights, establishing social justice, protecting the poor, emphasizing education, and preaching strict monotheism (*Tawheed*).
+### 🌅 1. Birth and Early Childhood (570 – 595 CE)
+Prophet Muhammad (ﷺ) was born in Mecca in the "Year of the Elephant" (570 CE) into the noble Hashim clan of the Quraish tribe. His father, Abdullah, passed away before his birth, and his mother, Aminah, passed away when he was six years old. Raised initially by his grandfather Abdul-Muttalib and later by his uncle Abu Talib, his youth in the harsh desert environment instilled in him deep resilience, humility, and compassion.
 
-### 🌺 Key Legacy & Core Teachings:
-* **Universal Human Equality:** Declared in his Farewell Sermon that no race, ethnicity, or lineage holds superiority over another except by righteousness and piety.
-* **Compassion for All Creation:** Taught kindness not only to human beings but also to animals, plants, and the environment.
-* **Forgiveness & Mercy:** Demonstrated unmatched forgiveness during the Liberation of Mecca by granting general amnesty to those who had persecuted him for decades.
-* **Epitome of Character:** Recognized historically (including ranking #1 in Michael H. Hart's *The 100: A Ranking of the Most Influential Persons in History*) as the most successful religious and secular leader in history.
+In his early twenties, he worked as a shepherd and later as a successful merchant. Long before receiving divine revelation, his flawless honesty, justice, and integrity earned him the honorific titles **Al-Amin** (*The Trustworthy*) and **As-Sadiq** (*The Truthful*) across Mecca.
+
+### 📜 2. The First Revelation and Prophethood (610 CE)
+Troubled by the moral decay, idol worship, and social inequality in pre-Islamic Arabian society, Prophet Muhammad (ﷺ) frequently retreated to the Cave of Hira on Mount An-Nour for contemplation. At the age of 40, during the month of Ramadan, Angel Jibreel (Gabriel) appeared to him with the first divine command:  
+> *"Read in the name of your Lord who created..."* (Surah Al-Alaq, 96:1)
+
+This marked the beginning of 23 years of Qur'anic revelation and his divine mission as the Messenger of God.
+
+### 🏜️ 3. Preaching in Mecca and Persecution (610 – 622 CE)
+For the first three years, the message of Islam was preached privately, focusing on absolute monotheism (*Tawheed*) and the care of orphans, women, and the poor. When public preaching began, the ruling elite of Mecca fiercely opposed him due to his condemnation of idol worship and economic exploitation. Despite severe economic boycotts, physical persecution, and the loss of his beloved wife Khadijah (R.A.) and uncle Abu Talib, the Prophet (ﷺ) remained steadfast in his peaceful calling.
+
+### 🐪 4. The Migration (Hijrah) and State of Madinah (622 – 630 CE)
+In 622 CE, facing assassination attempts, Prophet Muhammad (ﷺ) and his followers migrated 320 km north to Yathrib (renamed **Al-Madinah Al-Munawwarah**). This event, known as the *Hijrah*, marks Year 1 of the Islamic Hijri calendar.
+
+In Madinah, he drafted the **Constitution of Madinah**—the world’s first written constitution that guaranteed religious freedom, civic rights, and collective defense for Muslims, Jews, and pagan tribes alike. Over the next eight years, he defended the young state through key historic events including the Battles of Badr, Uhud, and the Trench.
+
+### 🏳️ 5. The Conquest of Mecca & General Amnesty (630 CE)
+In 630 CE, following a breach of peace treaty by the Quraish, Prophet Muhammad (ﷺ) marched toward Mecca with an army of 10,000 men. Entering the city peacefully without bloodshed, he cleared the Kaaba of idols and announced a historic general amnesty to his lifelong persecutors, declaring:  
+> *"Go, for you are free today."*
+
+### 📜 6. The Farewell Sermon & Passing (632 CE)
+During his final pilgrimage to Mecca in 632 CE, Prophet Muhammad (ﷺ) delivered his legendary **Farewell Sermon** at Mount Arafat. He articulated foundational human rights:
+* Absolute racial equality (*"An Arab has no superiority over a non-Arab..."*)
+* Protection of women's rights and dignity
+* Sanctity of human life and property
+* Abolition of economic interest and exploitation
+
+Shortly after returning to Madinah, Prophet Muhammad (ﷺ) passed away at the age of 63, leaving behind the Holy Qur'an and his Sunnah (teachings) as a guidance for all humanity.
 
 ---
 
-## ✨ Features & Functional Highlights
+## ✨ Key Features & Interactive Visuals
 
-### 🎨 Modern Glassmorphic UI & Aesthetic Design
-- **Glassmorphism Styling:** Frosted glass visual hierarchy, glowing gold accents, and subtle ambient dynamic animations.
-- **Dual Theme Support (Dark / Light):** Instant visual switching between a rich midnight dark palette and a clean, accessible light mode.
-- **Responsive Layout:** Engineered from the ground up for seamless rendering across smartphones, tablets, laptops, and wide monitors.
+### 🎨 Visual & UI Enhancements
+- **CSS Glassmorphism UI:** Modern frosted-glass visual components with ambient gold glows.
+- **Interactive Visual Timeline:** Clear chronological breakdown of life milestones.
+- **Live Statistics Counters:** Animated stats tracking global followers, years of prophethood, and historical rankings.
+- **Dark/Light Theme Switcher:** Instant toggle between midnight dark and crisp light themes.
 
-### 📖 Interactive Quran Reader (Live API Integration)
-- **Full Quran Surah Index:** Fetches all 114 Surahs dynamically from the official **Quran.com API (v4)**.
-- **Multilingual Support:** Displays Uthmani Arabic script, authentic **Bangla translation (বাংলা অনুবাদ)**, and **English translation** side-by-side.
-- **In-App Search & Filter:** Quick search bar to locate Surahs by name, meaning, or chapter number.
-- **Font Scale Customization:** Interactive font size controls ($A+$ / $A-$) for customized readability.
+### 🎛️ Interactive Action Buttons
+- 📖 **Quran Reader:** Launches the integrated multi-lingual Quran module.
+- 🌙 / ☀️ **Theme Toggle:** Switches visual color themes dynamically.
+- 🕌 **Nasheed Player:** Toggles ambient background vocal nasheed audio.
+- 🖨️ **Print Page:** Formats and prints the tribute page directly.
+- 📤 **Share Link:** One-click sharing via Web Share API or direct clipboard copy.
+- **A+ / A- Resizer:** Adjusts Arabic and translation font scaling dynamically.
 
-### 🎧 Verse-by-Verse Audio Recitation
-- **High-Quality Audio Playback:** Powered by the **EveryAyah API** featuring pristine recitations by Qari Mishary Rashid Alafasy.
-- **Auto-Play Engine:** Automatically transitions to the next verse smoothly with synchronized auto-scrolling.
-
-### 💡 Interactive Wisdom (Hadith) Switcher
-- Curated collection of famous Hadiths focusing on character, kindness, brotherhood, and moral excellence with dynamic quote transitions.
-
-### 🕌 Ambient Vocal Nasheed & Media
-- Built-in ambient background audio player with one-click play/pause controls.
+### 📖 Integrated Quran Reader & Audio API
+- **114 Surahs Directory:** Real-time data fetching via **Quran.com API (v4)**.
+- **Multi-language Display:** Uthmani Arabic script, English translation, and **Bangla (বাংলা)** translation side-by-side.
+- **Verse-by-Verse Audio:** High-quality recitations by Qari Mishary Rashid Alafasy via **EveryAyah API** with auto-play.
 
 ---
 
-## 🛠️ Tech Stack & API Architecture
+## 🛠️ Tech Stack & Resources
 
-| Technology / Resource | Usage & Purpose |
+| Category | Technology / Resource Used |
 | :--- | :--- |
-| **HTML5** | Semantic structure, accessible markup, and clean DOM organization. |
-| **CSS3 (Modern)** | CSS Variables, Flexbox, CSS Grid, Glassmorphic effects, `@keyframes` animations. |
-| **JavaScript (ES6+)** | Dynamic UI interactions, theme switching, DOM manipulation, asynchronous state management. |
-| **Quran.com API v4** | Fetches chapter metadata, Uthmani Arabic text, Bangla, and English translations. |
-| **EveryAyah API** | Streams high-quality audio recitations for individual Quran verses. |
-| **Google Fonts** | `Playfair Display`, `Amiri` (Arabic calligraphy), `Inter`, and `Hind Siliguri` (Bangla typography). |
+| **Frontend Language** | HTML5, CSS3, JavaScript (ES6+) |
+| **Design Architecture** | CSS Variables, Flexbox, CSS Grid, Glassmorphism, Dynamic Themes |
+| **Data APIs** | Quran.com API v4, EveryAyah Recitation API |
+| **Typography** | Google Fonts (`Amiri`, `Playfair Display`, `Inter`, `Hind Siliguri`) |
+| **Repository Analytics** | Shield.io & Glitch Badge Services |
 
 ---
 
 ## 📊 Internship Task Specification
 
-* **Internship Program:** Oasis Infobyte Web Development & Designing Internship (OIBSIP)
+* **Program:** Oasis Infobyte Web Development & Designing Internship (OIBSIP)
 * **Track:** Web Development & Designing
 * **Level:** Level 2
 * **Task:** Task 2 – Tribute Page
@@ -75,7 +107,7 @@ At the age of 40, in the Cave of Hira, the first verses of the Holy Qur'an were 
 
 ---
 
-## 🚀 How to Run the Project Locally
+## 🚀 How to Run Locally
 
 1. **Clone the Repository:**
    ```bash
