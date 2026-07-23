@@ -7,11 +7,11 @@
 
 ## 📊 Repository Analytics & Badges
 
-![Visitor Count](https://page-views.glitch.me/badge?page_id=your-username.tribute-page-prophet-muhammad)
-![GitHub Stars](https://img.shields.io/github/stars/your-username/tribute-page-prophet-muhammad?style=for-the-badge&color=d4af37)
-![GitHub Forks](https://img.shields.io/github/forks/your-username/tribute-page-prophet-muhammad?style=for-the-badge&color=10b981)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/your-username/tribute-page-prophet-muhammad?style=for-the-badge&color=3b82f6)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/your-username/tribute-page-prophet-muhammad?style=for-the-badge&color=8b5cf6)
+![Visitor Count](https://page-views.glitch.me/badge?page_id=your-SayemSamir.tribute-page-prophet-muhammad)
+![GitHub Stars](https://img.shields.io/github/stars/your-SayemSamir/tribute-page-prophet-muhammad?style=for-the-badge&color=d4af37)
+![GitHub Forks](https://img.shields.io/github/forks/your-SayemSamir/tribute-page-prophet-muhammad?style=for-the-badge&color=10b981)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/your-SayemSamir/tribute-page-prophet-muhammad?style=for-the-badge&color=3b82f6)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/your-SayemSamir/tribute-page-prophet-muhammad?style=for-the-badge&color=8b5cf6)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
 ---
@@ -112,3 +112,9 @@ Shortly after returning to Madinah, Prophet Muhammad (ﷺ) passed away at the ag
 1. **Clone the Repository:**
    ```bash
    git clone [https://github.com/your-username/tribute-page-prophet-muhammad.git](https://github.com/your-username/tribute-page-prophet-muhammad.git)
+
+---
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
