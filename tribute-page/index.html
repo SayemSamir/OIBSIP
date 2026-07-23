@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute to Prophet Muhammad (ﷺ) | Mercy to All Mankind</title>
+
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+</head>
+<body data-theme="dark">
+
+  <div id="toast">Message</div>
+
+  <!-- BACKGROUND DECORATION -->
+  <div class="bg-shape shape-1"></div>
+  <div class="bg-shape shape-2"></div>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo">محمد ﷺ</a>
+      <ul class="nav-links">
+        <li><a href="#about">Biography</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#quotes">Wisdom</a></li>
+        <li><a href="#legacy">Legacy</a></li>
+      </ul>
+      <div class="nav-controls">
+        <button class="btn-icon" onclick="openQuranModal()">📖 Quran</button>
+        <button class="btn-icon" id="themeToggle" title="Toggle Light/Dark Theme">🌙</button>
+        <button class="btn-icon" id="audioToggle" title="Toggle Background Vocal Nasheed">🕌 Nasheed</button>
+        <button class="btn-icon" onclick="window.print()" title="Print Tribute Page">🖨️</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="container hero-content">
+      <div class="arabic-title">مُحَمَّدٌ رَسُولُ اللَّهِ ﷺ</div>
+      <h1 class="hero-name">Hazrat Muhammad (ﷺ)</h1>
+      <p class="hero-tagline">"And We have not sent you, [O Muhammad], except as a mercy to the worlds." — Holy Qur'an (21:107)</p>
+      <div class="hero-buttons">
+        <a href="#about" class="btn-primary">Explore Detailed Biography</a>
+        <button class="btn-icon" onclick="openQuranModal()" style="padding: 12px 24px; border-radius: 30px; background: var(--glass-bg);">📖 Read Holy Qur'an</button>
+        <button class="btn-icon" onclick="shareTribute()" style="padding: 12px 24px; border-radius: 30px;">📤 Share</button>
+      </div>
+    </div>
+    <a href="#stats" class="scroll-down">↓</a>
+  </header>
+
+  <!-- IMPACT COUNTER STATS -->
+  <section id="stats" style="padding: 20px 0;">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="glass-card stat-card">
+          <div class="stat-number" data-target="2">0</div>
+          <div class="stat-label">Billion Global Followers</div>
+        </div>
+        <div class="glass-card stat-card">
+          <div class="stat-number" data-target="23">0</div>
+          <div class="stat-label">Years of Prophethood</div>
+        </div>
+        <div class="glass-card stat-card">
+          <div class="stat-number" data-target="100">0</div>
+          <div class="stat-label">Ranked #1 Most Influential Person in History</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIOGRAPHY SECTION -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Detailed Biography &amp; Life Journey</h2>
+        <p class="section-subtitle">An extensive overview of the life, character, and mission of the Final Prophet (ﷺ)</p>
+      </div>
+
+      <div class="bio-grid">
+        <div class="glass-card bio-card">
+          <h3>👶 Early Life, Lineage, and Character (570 – 610 CE)</h3>
+          <p>Hazrat Muhammad ﷺ was born in Mecca in 570 CE into the noble Hashim clan of the Quraish tribe. His father, Abdullah, passed away before his birth, and his mother, Aminah, passed away when he was only six years old. Raised initially by his grandfather Abdul-Muttalib and later by his protective uncle Abu Talib, his upbringing amidst hardship molded a deeply compassionate and resilient character.</p>
+          <p>In his youth, he worked as a shepherd and later as a trustworthy merchant. Throughout Mecca, long before his prophethood, he earned the titles <strong>Al-Amin</strong> (The Trustworthy) and <strong>As-Sadiq</strong> (The Truthful).</p>
+        </div>
+
+        <div class="glass-card bio-card">
+          <h3>📖 The First Revelation &amp; Early Preaching in Mecca (610 – 622 CE)</h3>
+          <p>Seeking solace from the moral decay of pre-Islamic Arabian society, Prophet Muhammad ﷺ frequently retreated to the Cave of Hira on Mount An-Nour. At the age of 40, during the month of Ramadan, Angel Jibreel (Gabriel) appeared to him with the divine command: <em>"Read in the name of your Lord who created..."</em> marking the beginning of the Quranic revelation.</p>
+        </div>
+
+        <div class="glass-card bio-card">
+          <h3>🐪 The Migration (Hijrah) &amp; Establishment of Madinah (622 – 630 CE)</h3>
+          <p>In 622 CE, following divine guidance, Prophet Muhammad ﷺ migrated from Mecca to Yathrib (renamed <strong>Al-Madinah Al-Munawwarah</strong>). This event, known as the <em>Hijrah</em>, marks the start of the Islamic calendar. In Madinah, he drafted the historic <strong>Constitution of Madinah</strong>.</p>
+        </div>
+
+        <div class="glass-card bio-card">
+          <h3>❤️ Liberation of Mecca &amp; The Farewell Sermon (630 – 632 CE)</h3>
+          <p>In 630 CE, Prophet Muhammad ﷺ marched toward Mecca with an army of 10,000. Entering the city without bloodshed, he announced a general amnesty for his former tormentors, declaring: <em>"Go, for you are free."</em> During his Farewell Pilgrimage in 632 CE, he delivered his legendary Farewell Sermon, emphasizing universal human equality and rights.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE TIMELINE -->
+  <section id="timeline">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Key Milestones</h2>
+        <p class="section-subtitle">Chronological timeline of defining life events</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div class="glass-card">
+            <div class="timeline-date">570 CE</div>
+            <h4>Birth in Mecca</h4>
+            <p>Born in the Year of the Elephant to the noble Hashim clan of Quraish.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item right">
+          <div class="glass-card">
+            <div class="timeline-date">610 CE</div>
+            <h4>The First Revelation</h4>
+            <p>Receives the first divine revelation of the Holy Qur'an in the Cave of Hira.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item left">
+          <div class="glass-card">
+            <div class="timeline-date">622 CE</div>
+            <h4>The Hijrah (Migration)</h4>
+            <p>Migrates to Madinah, establishing the First Islamic State and Islamic Calendar.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item right">
+          <div class="glass-card">
+            <div class="timeline-date">630 CE</div>
+            <h4>Liberation of Mecca</h4>
+            <p>Enters Mecca peacefully and grants general amnesty to all inhabitants.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item left">
+          <div class="glass-card">
+            <div class="timeline-date">632 CE</div>
+            <h4>Farewell Pilgrimage &amp; Passing</h4>
+            <p>Delivers the landmark Farewell Sermon at Mount Arafat and passes away in Madinah.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSPIRATIONAL QUOTES (HADITH) -->
+  <section id="quotes">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Wisdom &amp; Sayings (Hadith)</h2>
+        <p class="section-subtitle">Timeless guidance on morality, human rights, and social justice</p>
+      </div>
+
+      <div class="glass-card quote-container">
+        <div class="quote-text" id="quoteDisplay">
+          "The best among you are those who have the best manners and character."
+        </div>
+        <div class="quote-author" id="quoteAuthor">— Prophet Muhammad (ﷺ) [Sahih al-Bukhari]</div>
+        <button class="btn-primary" onclick="nextQuote()" style="margin-top: 24px;">Next Wisdom ✦</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEGACY & IMPACT -->
+  <section id="legacy">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Global Impact &amp; Universal Values</h2>
+        <p class="section-subtitle">Core principles that transformed world history</p>
+      </div>
+
+      <div class="facts-grid">
+        <div class="glass-card fact-card">
+          <div class="fact-icon">⚖️</div>
+          <h3>Universal Equality</h3>
+          <p>"An Arab has no superiority over a non-Arab, nor a non-Arab over an Arab... except by piety and good action."</p>
+        </div>
+
+        <div class="glass-card fact-card">
+          <div class="fact-icon">🌱</div>
+          <h3>Environmental Stewardship</h3>
+          <p>"If the Final Hour comes while one of you has a palm seedling in hand, let him plant it."</p>
+        </div>
+
+        <div class="glass-card fact-card">
+          <div class="fact-icon">🤝</div>
+          <h3>Kindness &amp; Social Care</h3>
+          <p>"He is not a believer who fills his stomach while his neighbor goes hungry by his side."</p>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <ul class="footer-links">
+        <li><a href="#about">Biography</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#quotes">Wisdom</a></li>
+      </ul>
+      <div class="footer-credit">
+        Dedicated with reverence | Designed with HTML, CSS &amp; JavaScript
+      </div>
+    </div>
+  </footer>
+
+  <!-- VOCAL NASHEED -->
+  <audio id="bgAudio" loop preload="none">
+    <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c88686a7.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- ========================================================= -->
+  <!-- QURAN READER MODAL OVERLAY -->
+  <!-- ========================================================= -->
+  <div class="modal-overlay" id="quranModal">
+    <div class="quran-modal-content">
+      
+      <!-- MODAL HEADER -->
+      <div class="quran-modal-header">
+        <div class="quran-modal-title">القرآن الكريم — Quran Reader</div>
+        <div style="display: flex; gap: 8px; align-items: center;">
+          <button class="btn-icon" onclick="adjustFontSize(0.1)" title="Increase Font Size">A+</button>
+          <button class="btn-icon" onclick="adjustFontSize(-0.1)" title="Decrease Font Size">A-</button>
+          <button class="btn-icon" onclick="closeQuranModal()" style="background:#ef4444; color:#fff; border:none;">✕ Close</button>
+        </div>
+      </div>
+
+      <div id="progress-bar"></div>
+
+      <!-- MODAL BODY -->
+      <div class="quran-modal-body" id="quranModalBody">
+        
+        <!-- CONTROL PANEL -->
+        <div class="control-panel">
+          <div class="control-group">
+            <label>Select Surah:</label>
+            <select id="surahSelect" class="select-input" onchange="loadSurah(this.value)">
+              <!-- Dynamic options -->
+            </select>
+          </div>
+          <div class="control-group">
+            <label>Search Surah:</label>
+            <input type="text" id="surahSearch" class="search-input" placeholder="Surah name or number..." onkeyup="filterSurah()">
+          </div>
+          <div class="control-group" style="display:flex; align-items:center; gap:8px; padding-top:20px;">
+            <input type="checkbox" id="autoPlayToggle" style="accent-color:var(--primary-accent); width:18px; height:18px; cursor:pointer;">
+            <label for="autoPlayToggle" style="margin:0; cursor:pointer;">Auto-play Next Verse</label>
+          </div>
+        </div>
+
+        <!-- MAIN QURAN VIEW -->
+        <main id="quranView">
+          <div class="loading-box">Loading Quran Data... 📖</div>
+        </main>
+
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script> 
+</body>
+</html>
