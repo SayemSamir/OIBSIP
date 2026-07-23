@@ -7,7 +7,7 @@
 
 ## 📊 Repository Analytics & Badges
 
-![Visitor Count](https://page-views.glitch.me/badge?page_id=SayemSamir.tribute-page-prophet-muhammad)
+![Visitor Count](https://github.com/SayemSamir/OIBSIP/edit/main/tribute-page)
 ![GitHub Stars](https://img.shields.io/github/stars/SayemSamir/tribute-page-prophet-muhammad?style=for-the-badge&color=d4af37)
 ![GitHub Forks](https://img.shields.io/github/forks/SayemSamir/tribute-page-prophet-muhammad?style=for-the-badge&color=10b981)
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/SayemSamir/tribute-page-prophet-muhammad?style=for-the-badge&color=3b82f6)
