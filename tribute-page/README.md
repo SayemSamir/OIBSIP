@@ -7,7 +7,7 @@
 
 ## 📊 Repository Analytics & Badges
 
-![Visitor Count](https://page-views.glitch.me/badge?page_id=SayemSamir.OIBSIP)
+![Visitor Count](https://komarev.com/ghpvc/?username=SayemSamir&repo=OIBSIP&color=d4af37&style=for-the-badge&label=PROFILE+VIEWS)
 ![GitHub Stars](https://img.shields.io/github/stars/SayemSamir/OIBSIP?style=for-the-badge&color=d4af37)
 ![GitHub Forks](https://img.shields.io/github/forks/SayemSamir/OIBSIP?style=for-the-badge&color=10b981)
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/SayemSamir/OIBSIP?style=for-the-badge&color=3b82f6)
