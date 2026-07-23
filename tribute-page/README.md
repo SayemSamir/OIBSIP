@@ -7,13 +7,12 @@
 
 ## 📊 Repository Analytics & Badges
 
-![Visitor Count](https://github.com/SayemSamir/OIBSIP/edit/main/tribute-page)
-![GitHub Stars](https://img.shields.io/github/stars/SayemSamir/tribute-page-prophet-muhammad?style=for-the-badge&color=d4af37)
-![GitHub Forks](https://img.shields.io/github/forks/SayemSamir/tribute-page-prophet-muhammad?style=for-the-badge&color=10b981)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/SayemSamir/tribute-page-prophet-muhammad?style=for-the-badge&color=3b82f6)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/SayemSamir/tribute-page-prophet-muhammad?style=for-the-badge&color=8b5cf6)
+![Visitor Count](https://page-views.glitch.me/badge?page_id=SayemSamir.OIBSIP)
+![GitHub Stars](https://img.shields.io/github/stars/SayemSamir/OIBSIP?style=for-the-badge&color=d4af37)
+![GitHub Forks](https://img.shields.io/github/forks/SayemSamir/OIBSIP?style=for-the-badge&color=10b981)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/SayemSamir/OIBSIP?style=for-the-badge&color=3b82f6)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/SayemSamir/OIBSIP?style=for-the-badge&color=8b5cf6)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
-
 ---
 
 ## 📌 Project Overview & Purpose
