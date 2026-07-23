@@ -5,34 +5,38 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
-A modern, ultra-sleek, and lightweight client-side authentication interface built with pure **HTML5, CSS3, and Modern JavaScript (Vanilla JS)**. **AuraAuth** delivers a seamless user onboarding experience featuring smooth tab-switching animations, real-time security indicators, and an interactive personal workspace dashboard—organized with a clean, modular folder structure.
+A modern, ultra-sleek, and lightweight client-side authentication interface built with pure **HTML5, CSS3, and Modern JavaScript (Vanilla JS)**. **AuraAuth** delivers a seamless user onboarding experience featuring smooth tab-switching animations, real-time security indicators, and an interactive personal workspace dashboard.
 
 ---
-
-## 🚀 Live Demo & Preview
 
 ## ✨ Key Features
 
 - **🔄 Automatic Tab Redirection:** Seamlessly transitions from the **Register** view to the **Sign In** view immediately upon successful account creation, pre-filling the username for maximum UX efficiency.
-- **🛡️ Secure Password Strength Evaluator:** Real-time visual feedback tracking password length, numbers, and case-sensitive requirements with dynamic color indicators.
-- **🔐 Client-Side SHA-256 Hashing:** Uses the native Web Crypto API (`crypto.subtle`) to hash user credentials before saving them into local browser storage.
+- **🛡️ Real-Time Password Evaluator:** Live visual feedback tracking length, digits, and case-sensitive requirements with dynamic color indicators.
+- **🔐 Client-Side SHA-256 Hashing:** Native Web Crypto API (`crypto.subtle`) hashes credentials into 64-character strings before local persistence.
 - **🎨 Glassmorphism & Ambient Visuals:** Dynamic glassmorphic UI cards paired with floating background blob animations for a cutting-edge aesthetic.
-- **🌓 Adaptive Light & Dark Modes:** Instant theme switching with seamless global CSS variable transitions.
-- **📊 Personalized Interactive Dashboard:** Dynamically presents account stats, security scores, login counts, and user profile badges upon authentication.
-- **💡 Dynamic Daily Inspiration Generator:** Built-in tech quote and motivational insight utility inside the user dashboard.
-- **🔔 Toast Notification Engine:** Smooth, animated toast notifications for instant status feedback (Success, Error, Info).
+- **🌓 Adaptive Theme Engine:** Instant Dark/Light mode toggle powered by smooth global CSS custom variables.
+- **📊 Personalized Interactive Dashboard:** Displays account statistics, security health scores, login tracking, and unique avatar badges.
+- **💡 Dynamic Inspiration Generator:** Built-in tech quote utility inside the workspace dashboard.
+- **🔔 Toast Notification Engine:** Custom-built non-intrusive alerts for real-time status feedback (Success, Error, Info).
 
 ---
 
-## 📁 File Structure
+## ⚡ Feature Comparison
+
+| Feature | Standard Forms | AuraAuth Engine |
+| :--- | :---: | :---: |
+| **Password Storage** | Plaintext / Raw | **Client-Side SHA-256 Hashed** |
+| **User Redirection** | Manual Switch | **Automated Tab Transition** |
+| **UI Aesthetics** | Flat / Static | **Glassmorphism & Animated Blobs** |
+| **Dependencies** | Bootstrap / React | **Zero Dependencies (Pure Vanilla)** |
+| **Real-time Rules** | Basic Check | **Dynamic Password Strength Bar** |
+
+---
+
+## 🔒 Security Architecture
 
 ```text
-aura-auth/
-├── index.html          # Main HTML structure & views
-├── css/
-│   └── style.css       # Custom styles, theme variables, glassmorphism & animations
-├── js/
-│   └── app.js          # Auth logic, SHA-256 hashing, dynamic DOM & localStorage
-└── README.md           # Project Documentation
-
-Clone the repository: (git clone [https://github.com/your-username/aura-auth.git](https://github.com/your-username/aura-auth.git)
+[User Password Input] ──► [SHA-256 Hash Engine (Web Crypto API)] ──► [64-Char Hash Generated]
+                                                                                │
+[User Authenticated]  ◄── [Compare Hash against Database] ◄── [Stored in LocalStorage]
