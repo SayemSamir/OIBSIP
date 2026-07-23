@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AuraAuth - Intelligent Authentication & Dynamic Workspace</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <div class="app-card" id="main-card">
+    
+    <div class="top-controls">
+      <div class="brand-logo">
+        <div class="logo-icon">⚡</div>
+        <span>AuraAuth</span>
+      </div>
+      <button class="theme-toggle" id="theme-btn" onclick="toggleTheme()" title="Toggle Theme">🌙</button>
+    </div>
+
+    <div class="auth-tabs" id="auth-nav">
+      <button class="tab-btn active" id="tab-login" onclick="switchTab('login')">Sign In</button>
+      <button class="tab-btn" id="tab-register" onclick="switchTab('register')">Register</button>
+    </div>
+
+    <!-- VIEW 1: REGISTER -->
+    <div class="view-section" id="view-register">
+      <div class="form-header">
+        <h1>Create Account</h1>
+        <p>Join AuraAuth to unlock smart features</p>
+      </div>
+
+      <form id="reg-form">
+        <div class="form-group">
+          <label for="reg-username">Username</label>
+          <div class="input-box">
+            <input type="text" id="reg-username" placeholder="e.g. samir_dev" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="reg-email">Email Address</label>
+          <div class="input-box">
+            <input type="email" id="reg-email" placeholder="samir@example.com" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="reg-password">Password</label>
+          <div class="input-box">
+            <input type="password" id="reg-password" placeholder="••••••••" required>
+            <span class="toggle-pass" onclick="togglePassword('reg-password', this)">🙈</span>
+          </div>
+          
+          <div class="strength-wrapper">
+            <div class="strength-track">
+              <div class="strength-bar" id="strength-bar"></div>
+            </div>
+            <div class="rules-grid">
+              <div class="rule-item" id="rule-len">✖ 8+ Characters</div>
+              <div class="rule-item" id="rule-num">✖ 1+ Number</div>
+              <div class="rule-item" id="rule-upper">✖ Upper Case</div>
+              <div class="rule-item" id="rule-lower">✖ Lower Case</div>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-submit" id="reg-btn">
+          <span>Create Account</span> 🚀
+        </button>
+      </form>
+    </div>
+
+    <!-- VIEW 2: LOGIN -->
+    <div class="view-section active" id="view-login">
+      <div class="form-header">
+        <h1>Welcome Back</h1>
+        <p>Enter your credentials to access your workspace</p>
+      </div>
+
+      <form id="login-form">
+        <div class="form-group">
+          <label for="login-user">Username or Email</label>
+          <div class="input-box">
+            <input type="text" id="login-user" placeholder="Username or email" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="login-pass">Password</label>
+          <div class="input-box">
+            <input type="password" id="login-pass" placeholder="••••••••" required>
+            <span class="toggle-pass" onclick="togglePassword('login-pass', this)">🙈</span>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-submit" id="login-btn">
+          <span>Sign In</span> 🔑
+        </button>
+      </form>
+    </div>
+
+    <!-- VIEW 3: DASHBOARD -->
+    <div class="view-section" id="view-dashboard">
+      <div class="dash-header">
+        <div class="user-profile">
+          <div class="avatar-large" id="dash-avatar">U</div>
+          <div>
+            <h2 id="dash-name">User</h2>
+            <p id="dash-email-text" style="color: var(--text-sub); font-size: 0.85rem;"></p>
+          </div>
+        </div>
+        <button class="btn-action btn-danger" onclick="logout()">Sign Out 🚪</button>
+      </div>
+
+      <div class="quote-box">
+        <p class="quote-text" id="ai-quote">"The only way to do great work is to love what you do."</p>
+        <div class="quote-author" id="ai-author">— Steve Jobs</div>
+        <button class="btn-action" style="margin-top: 12px; font-size: 0.75rem;" onclick="generateQuote()">✨ New Inspiration</button>
+      </div>
+
+      <div class="dash-grid">
+        <div class="dash-card">
+          <h4>Security Score</h4>
+          <div class="val" style="color: var(--accent-emerald);">98% Safe</div>
+        </div>
+        <div class="dash-card">
+          <h4>Total Logins</h4>
+          <div class="val" id="dash-logins">1</div>
+        </div>
+        <div class="dash-card">
+          <h4>Member Since</h4>
+          <div class="val" id="dash-joined">Today</div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 12px; justify-content: flex-end;">
+        <button class="btn-action" onclick="copyUserData()">📋 Copy Profile Info</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="toast-container"></div>
+   <script src="script.js"></script>  
+</body>
+</html>
