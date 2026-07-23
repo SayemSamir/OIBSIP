@@ -17,7 +17,9 @@ A modern, ultra-sleek, and lightweight client-side authentication interface buil
 
 ## 📸 Screenshot
 
-![Landing Page Preview](screenshots/preview.png.jpeg)
+![Landing Page Preview](pic1.jpeg)
+
+![Landing Page Preview](pic2.jpeg)
 
 ---
 
