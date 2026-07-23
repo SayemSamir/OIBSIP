@@ -22,6 +22,8 @@
 
 🔗 **Access Deployment:** [Live Visit Website](https://calculator-scientifics.netlify.app/)
 
+![Preview](Calculator.jpeg)
+
 ---
 
 ## 📌 Executive Summary
