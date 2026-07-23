@@ -27,7 +27,8 @@ The primary objective of this project is to honor and present the life, moral ch
 
 [🚀 View Live Website](https://venerable-sunburst-4fc4d6.netlify.app/)
 
-![Page Preview](s)
+![Page Preview](image1.jpeg)
+![Page Preview](image2.jpeg)
 
 ## 🕋 Comprehensive History & Biography of Hazrat Muhammad (ﷺ)
 
