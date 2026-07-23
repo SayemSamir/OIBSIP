@@ -3,7 +3,7 @@
 
 ![Oasis Infobyte](https://img.shields.io/badge/Oasis%20Infobyte-Internship-green?style=for-the-badge&logo=leaf)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
-![GitHub](https://img.shields.io/badge/GitHub-OIBSIP-blue?style=for-the-badge&logo=github)
+![GitHub](https://img.shields.io/badge/GitHub-OIBSIP-blue?style=for-the-badge&logo=github)(https://github.com/SayemSamir)
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=SayemSamir&label=Visitors&style=for-the-badge&color=8b5cf6"/>
 <img src="https://img.shields.io/github/followers/SayemSamir?style=for-the-badge"/>
@@ -25,8 +25,10 @@
 | # | Task | Status | Demo Video | Folder |
 |---|------|--------|------------|--------|
 | 1 | Landing Page | ✅ Completed | [▶ Watch](https://www.linkedin.com/posts/gazi-sayem-uddin-samir_oasisinfobyte-oibsip-webdevelopment-ugcPost-7484874162763681792-mSzA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF69aJgBycCl3UD28ffhfZHCVmY1CjObAMA) | [📂 View Code](https://github.com/SayemSamir/OIBSIP/tree/main/WebDev-L1-LandingPage) |
-| 2 | Personal Portfolio | ✅ Completed  |[▶ Watch]() | [📂 View Code](https://github.com/SayemSamir/OIBSIP/tree/main/WebDev-L1-PersonalPortfolio) |
-| 3 | Temperature Converter | ✅ Completed | ▶ Watch]() | [📂 View Code](https://github.com/SayemSamir/OIBSIP/tree/main/WebDev-L1-TemperatureConverter) |
+| 2 | Personal Portfolio | ✅ Completed  |[▶ Watch](https://www.linkedin.com/posts/gazi-sayem-uddin-samir_oasisinfobyte-oibsip-webdevelopment-ugcPost-7486116004075446272-AkRd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF69aJgBycCl3UD28ffhfZHCVmY1CjObAMA) | [📂 View Code](https://github.com/SayemSamir/OIBSIP/tree/main/WebDev-L1-PersonalPortfolio) |
+| 3 | Temperature Converter | ✅ Completed | [▶ Watch](https://www.linkedin.com/posts/gazi-sayem-uddin-samir_excited-to-share-my-latest-task-completion-ugcPost-7486118062476361729-ZnEu/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF69aJgBycCl3UD28ffhfZHCVmY1CjObAMA) | [📂 View Code](https://github.com/SayemSamir/OIBSIP/tree/main/WebDev-L1-TemperatureConverter) |
+| 4 | Calculator | ✅ Completed | [▶ Watch](https://www.linkedin.com/posts/gazi-sayem-uddin-samir_oasisinfobyte-oibsip-webdevelopment-share-7486120995620278272-Y2AD/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF69aJgBycCl3UD28ffhfZHCVmY1CjObAMA) | [📂 View Code](https://github.com/SayemSamir/OIBSIP/tree/main/vanilla-js-calculator) |
+
 
 > Replace the track name, task names, and links above with your actual work.
 
@@ -115,8 +117,10 @@ OIBSIP/
 | Task | LinkedIn Post |
 |------|---------------|
 | Task 1 — Landing Page | [🔗 View Post](https://www.linkedin.com/posts/gazi-sayem-uddin-samir_oasisinfobyte-oibsip-webdevelopment-ugcPost-7484874162763681792-mSzA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF69aJgBycCl3UD28ffhfZHCVmY1CjObAMA) |
-| Task 2 — Personal Portfolio| [🔗 View Post](https://linkedin.com/posts/your-post-2) |
-| Task 3 — Temperature Converter | [🔗 View Post](https://linkedin.com/posts/your-post-3) |
+| Task 2 — Personal Portfolio| [🔗 View Post](https://www.linkedin.com/posts/gazi-sayem-uddin-samir_oasisinfobyte-oibsip-webdevelopment-ugcPost-7486116004075446272-AkRd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF69aJgBycCl3UD28ffhfZHCVmY1CjObAMA) |
+| Task 3 — Temperature Converter | [🔗 View Post](https://www.linkedin.com/posts/gazi-sayem-uddin-samir_excited-to-share-my-latest-task-completion-ugcPost-7486118062476361729-ZnEu/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF69aJgBycCl3UD28ffhfZHCVmY1CjObAMA) |
+| Task 4 — Calculator | [🔗 View Post](https://www.linkedin.com/posts/gazi-sayem-uddin-samir_oasisinfobyte-oibsip-webdevelopment-share-7486120995620278272-Y2AD/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF69aJgBycCl3UD28ffhfZHCVmY1CjObAMA) |
+
 
 ---
 
