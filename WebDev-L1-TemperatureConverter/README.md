@@ -60,6 +60,24 @@ Users can instantly convert temperatures between Celsius, Fahrenheit, and Kelvin
 
 ---
 
+# 🚀 Live Demo
+
+🌐 Live Website
+
+[🚀 View Live Website](https://thermoglass.netlify.app/)
+
+---
+
+# 🖼️ Preview
+
+## Home
+
+![Preview](screenshot/3.jpeg)
+![Preview](screenshot/1.jpeg)
+
+
+---
+
 # ✨ Features
 
 ✅ Celsius to Fahrenheit
@@ -81,23 +99,6 @@ Users can instantly convert temperatures between Celsius, Fahrenheit, and Kelvin
 ✅ Responsive Design
 
 ✅ Modern UI
-
----
-
-# 🖼️ Preview
-
-## Home
-
-![Preview](screenshot/3.jpeg)
-![Preview](screenshot/1.jpeg)
-
----
-
-# 🚀 Live Demo
-
-🌐 Live Website
-
-[🚀 View Live Website](https://thermoglass.netlify.app/)
 
 ---
 
