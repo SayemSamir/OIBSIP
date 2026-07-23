@@ -79,21 +79,4 @@ At the age of 40, in the Cave of Hira, the first verses of the Holy Qur'an were 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/tribute-page-prophet-muhammad.git
-   ```
-2. **Navigate to the Directory:**
-   ```bash
-   cd tribute-page-prophet-muhammad
-   ```
-3. **Launch the Application:**
-   - Simply double-click `index.html` to open it in any modern browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari).
-   - Alternatively, serve it using VS Code **Live Server** extension for real-time updates.
-
----
-
-## 💖 Acknowledgments & Dedication
-
-* **Dedication:** Dedicated with deep reverence, love, and respect to our beloved Prophet **Hazrat Muhammad (ﷺ)**. May peace and blessings of Allah be upon him, his family, and his companions.
-* **Platform Support:** Sincere gratitude to **Oasis Infobyte (OIBSIP)** for designing structured internship tasks that inspire developers to build meaningful and impactful projects.
-
----
+   git clone [https://github.com/your-username/tribute-page-prophet-muhammad.git](https://github.com/your-username/tribute-page-prophet-muhammad.git)
