@@ -9,6 +9,18 @@ A modern, ultra-sleek, and lightweight client-side authentication interface buil
 
 ---
 
+## 🌐 Live Demo
+
+[🚀 View Live Website](https://next-gen-authentication.netlify.app/)
+
+---
+
+## 📸 Screenshot
+
+![Landing Page Preview](screenshots/preview.png.jpeg)
+
+---
+
 ## ✨ Key Features
 
 - **🔄 Automatic Tab Redirection:** Seamlessly transitions from the **Register** view to the **Sign In** view immediately upon successful account creation, pre-filling the username for maximum UX efficiency.
