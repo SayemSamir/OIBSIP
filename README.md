@@ -3,7 +3,7 @@
 
 ![Oasis Infobyte](https://img.shields.io/badge/Oasis%20Infobyte-Internship-green?style=for-the-badge&logo=leaf)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
-![GitHub](https://img.shields.io/badge/GitHub-OIBSIP-blue?style=for-the-badge&logo=github)(https://github.com/SayemSamir)
+![GitHub](https://img.shields.io/badge/GitHub-OIBSIP-blue?style=for-the-badge&logo=github)
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=SayemSamir&label=Visitors&style=for-the-badge&color=8b5cf6"/>
 <img src="https://img.shields.io/github/followers/SayemSamir?style=for-the-badge"/>
